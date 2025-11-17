@@ -47,11 +47,11 @@ SecureCrypt is a lightweight yet powerful desktop application that provides fast
    ```
 3. **Compile**
    ```bash
-   javac EncryptionApp.java
+   javac SecureCrypt.java
    ```
 4. **Run**
    ```bash
-   java EncryptionApp
+   java SecureCrypt
    ```
 
 
