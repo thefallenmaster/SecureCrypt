@@ -1,4 +1,4 @@
-# 🔐 SecureCrypt
+# 🔐 SecureCrypt  
 ### **Advanced Text Encryption & Decryption Tool (Java Swing)**
 
 SecureCrypt is a lightweight yet powerful desktop application that provides fast and reliable text encryption and decryption using both classical and modern cryptographic algorithms. Designed with a clean UI and secure AES-based password protection, it is ideal for students, developers, and anyone who works with sensitive text data.
@@ -41,13 +41,17 @@ SecureCrypt is a lightweight yet powerful desktop application that provides fast
    ```bash
    git clone https://github.com/thefallenmaster/SecureCrypt.git
    ```
-2. **Compile**
+2. **Go into the project directory**
    ```bash
-   javac SecureCrypt.java
+   cd SecureCrypt
    ```
-3. **Run**
+3. **Compile**
    ```bash
-   java SecureCrypt
+   javac EncryptionApp.java
+   ```
+4. **Run**
+   ```bash
+   java EncryptionApp
    ```
 
 
@@ -59,12 +63,12 @@ SecureCrypt is a lightweight yet powerful desktop application that provides fast
 4. Click **Encrypt** or **Decrypt**  
 5. Output appears instantly in the **Output Text** panel  
 
-## Screenshot
 
- <p align="center">
+
+## 📸 Screenshot
+<p align="center">
   <img src="assets/screenshot.png" width="80%" />
 </p>
-
 
 
 
@@ -85,7 +89,7 @@ SecureCrypt is a lightweight yet powerful desktop application that provides fast
 
 
 ## 📄 License
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
 
 
