@@ -60,8 +60,13 @@ SecureCrypt is a lightweight yet powerful desktop application that provides fast
 5. Output appears instantly in the **Output Text** panel  
 
 ## Screenshot
- 
- 
+
+ <p align="center">
+  <img src="assets/screenshot.png" width="80%" />
+</p>
+
+
+
 
 ## 🛠 Built With
 - Java 8+  
