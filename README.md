@@ -80,7 +80,8 @@ SecureCrypt is a lightweight yet powerful desktop application that provides fast
 
 
 ## 📄 License
-**MIT License** – Free to modify and use.
+This project is licensed under the **MIT License**.
+See the [LICENSE](LICENSE) file for details.
 
 
 
