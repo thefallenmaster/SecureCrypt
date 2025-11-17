@@ -9,7 +9,7 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-public class EncryptionApp extends JFrame {
+public class SecureCrypt extends JFrame {
 
     private JTextArea inputArea, outputArea;
     private JComboBox<String> algoBox;
@@ -20,7 +20,7 @@ public class EncryptionApp extends JFrame {
     private static final int GCM_TAG_LENGTH = 128;
     private static final int GCM_IV_LENGTH = 12;
 
-    public EncryptionApp() {
+    public SecureCrypt() {
         setTitle("🔐 Encryption / Decryption Tool");
         setSize(700, 550);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -482,6 +482,6 @@ public class EncryptionApp extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new EncryptionApp().setVisible(true));
+        SwingUtilities.invokeLater(() -> new SecureCrypt().setVisible(true));
     }
 }
