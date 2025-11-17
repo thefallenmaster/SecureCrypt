@@ -39,15 +39,15 @@ SecureCrypt is a lightweight yet powerful desktop application that provides fast
 ## 📦 Installation & Usage
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/SecureCrypt.git
+   git clone https://github.com/thefallenmaster/SecureCrypt.git
    ```
 2. **Compile**
    ```bash
-   javac EncryptionApp.java
+   javac SecureCrypt.java
    ```
 3. **Run**
    ```bash
-   java EncryptionApp
+   java SecureCrypt
    ```
 
 
