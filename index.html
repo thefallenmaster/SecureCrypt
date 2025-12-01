@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SecureCrypt — Free Download</title>
+  <meta name="description" content="SecureCrypt — Free text encryption and decryption tool (Java Swing). Download the latest jar from GitHub." />
+  <style>
+    :root{--bg:#f6f9fc;--card:#ffffff;--muted:#556170;--accent:#0f62fe;--radius:12px}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#0b1b2b;background:var(--bg);display:flex;align-items:center;justify-content:center;min-height:100vh;padding:28px}
+    .wrap{width:100%;max-width:920px}
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:0 6px 18px rgba(11,27,43,0.06);padding:28px}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px;align-items:start}
+    h1{margin:0;font-size:24px}
+    p.lead{color:var(--muted);margin-top:8px;line-height:1.5}
+
+    .features{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+    .feat{background:#f7fbff;border-radius:10px;padding:12px;border:1px solid #e6f0ff}
+    .feat h4{margin:0;font-size:14px}
+    .feat p{margin:6px 0 0 0;color:var(--muted);font-size:13px}
+
+    .right{display:flex;flex-direction:column;gap:12px}
+    .screenshot{height:220px;border-radius:8px;overflow:hidden;border:1px solid #e9f0fb}
+    .screenshot img{display: block;align-items: center;justify-content: center;height: 100%;width: 100%;}
+
+    .download{display:flex;gap:10px;align-items:center}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;border:0;cursor:pointer;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-outline{background:transparent;color:var(--accent);border:1px solid rgba(15,98,254,0.12)}
+
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:16px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.features{grid-template-columns:1fr}.right{order:-1}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="grid">
+        <div>
+          <h1>SecureCrypt — Free Download</h1>
+          <p class="lead">SecureCrypt is a simple, local desktop app for encrypting and decrypting text. It supports AES‑GCM plus classic ciphers, and runs on any system with Java 8+. No account, no cloud — your data stays on your machine.</p>
+
+          <div class="features">
+            <div class="feat">
+              <h4>AES‑GCM</h4>
+              <p>Authenticated modern encryption with optional master password.</p>
+            </div>
+            <div class="feat">
+              <h4>Many Algorithms</h4>
+              <p>Caesar, ROT13, Vigenère, Atbash, XOR, Base64, Hex and more.</p>
+            </div>
+            <div class="feat">
+              <h4>Save & Load</h4>
+              <p>Export and import text files locally.</p>
+            </div>
+            <div class="feat">
+              <h4>Lightweight</h4>
+              <p>Small jar, fast startup — works on Windows, macOS and Linux with Java.</p>
+            </div>
+          </div>
+
+          <div style="margin-top:18px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+            <button class="btn btn-primary" onclick="downloadJar()">⬇ Download (.jar)</button> <button class="btn btn-primary" onclick="downloadExe()">⬇ Download (.exe)</button>
+            <button class="btn btn-primary" onclick="openGitHub()">⭐ View on GitHub</button>
+            <span class="small">Version 1.0 • MIT License</span>
+          </div>
+
+          <p class="small" style="margin-top:12px">How to run: <code>java -jar SecureCrypt.jar</code> (requires Java 8+). See README for build/run instructions.</p>
+        </div>
+
+        <aside class="right">
+          <div class="screenshot">
+            <img src="assets/screenshot.png" alt="SecureCrypt screenshot" />
+          </div>
+
+          <div style="background:#fbfcfe;border-radius:10px;padding:12px;border:1px solid #eef6ff">
+            <strong style="display:block">Quick Links</strong>
+            <div style="margin-top:8px;display:flex;flex-direction:column;gap:8px">
+              <a href="https://github.com/thefallenmaster/SecureCrypt/releases" target="_blank" class="small">Releases</a>
+              <a href="https://github.com/thefallenmaster/SecureCrypt/blob/main/README.md" target="_blank" class="small">README</a>
+              <a href="LICENSE" target="_blank" class="small">License (MIT)</a>
+            </div>
+          </div>
+
+        </aside>
+      </div>
+
+      <footer>
+        © 2025 Gauthambala — SecureCrypt • Free and open-source
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    function downloadJar(){
+      // Update link to actual jar path in repo
+      window.open('https://github.com/thefallenmaster/SecureCrypt/raw/main/build/SecureCrypt.jar','_blank');
+    }
+      function openGitHub(){ window.open('https://github.com/thefallenmaster/SecureCrypt','_blank'); }
+    function downloadExe(){ window.open('https://github.com/thefallenmaster/SecureCrypt/raw/main/build/SecureCrypt.exe','_blank'); }
+  </script>
+</body>
+</html>
